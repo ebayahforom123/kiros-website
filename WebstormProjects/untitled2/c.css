@@ -1,0 +1,45 @@
+* {
+    background-color:wheat;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#er{
+    color: aqua;
+}
+.asd{
+    color: deepskyblue;
+    font-weight: bold;
+    background-color: bisque;
+    padding-bottom: 20px;
+}
+.w{
+
+    text-align: right;
+    padding-bottom:10px;
+    padding-left:100px;
+}
+table tr,th{
+    border:1px solid green;
+}
+th,td{
+
+    text-align: center;
+    border:1px solid green;
+}
+th{
+    border:1px solid green;
+}
+.q{
+    background-color: aqua;
+}
+#123{
+    background-color: seagreen;
+
+}
+#567{
+    background-color: blueviolet;
+
+}

@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif; /* Use a common, readable font */
+    background-color: #f4f4f9; /* Light background */
+    color: #333; /* Dark text color */
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* --- 📝 Header Styling (ID Selector) --- */
+/* Target the main header using its ID "er" */
+#er {
+    color: #0056b3; /* Primary accent color */
+    background-color: #e2eafc;
+    padding: 15px;
+    border-bottom: 3px solid #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* --- 🏷️ Paragraph Styling (Class Selector) --- */
+/* Target the paragraph with the class "asd" */
+.asd {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* --- 🔗 Link Styling (Class Selector) --- */
+/* Target the anchor tag with the class "w" */
+.w {
+    display: inline-block; /* Allows padding and margin */
+    padding: 8px 15px;
+    background-color: #28a745; /* Success green */
+    color: white;
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.w:hover {
+    background-color: #1e7e34;
+}
+
+/* --- 📊 Table Styling (Element Selector) --- */
+table {
+    width: 60%; /* Table takes 60% of the container width */
+    margin: 20px 0;
+    border-collapse: collapse; /* Removes double borders */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* Header blue */
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Zebra striping for better readability (optional) */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* --- 📝 Form Styling --- */
+/* Target all forms */
+form {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Target the specific form with ID "567" */
+#567 label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Target text and email inputs within forms (Attribute Selector) */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 110px); /* Adjust width considering the label */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* --- 🔘 Radio Button Styling --- */
+/* Align labels for radio buttons */
+input[type="radio"] + label {
+    margin-right: 20px;
+}
+
+/* --- 🔑 Fieldset and Legend Styling (Class and Element Selectors) --- */
+/* Target the fieldset with class "q" */
+.q {
+    border: 2px solid #ffc107; /* Warning yellow border */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.q legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffc107;
+    padding: 0 10px;
+}
+
+/* --- 🚀 Submit and Reset Button Styling --- */
+input[type="reset"],
+input[type="submit"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background-color: #bd2130;
+}
+
+/* --- 📦 Division Styling (ID Selector) --- */
+/* Target the division with ID "123" */
+#123 {
+    background-color: #e9ecef; /* Light gray background */
+    padding: 15px;
+    border-left: 5px solid #6c757d; /* Sidebar style border */
+    margin-top: 20px;
+}
+.wr{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+    color: blue;
+}
